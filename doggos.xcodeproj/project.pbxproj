@@ -10,12 +10,16 @@
 		CEE9AB9727DD441E00025078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9AB9627DD441E00025078 /* AppDelegate.swift */; };
 		CEE9AB9927DD441E00025078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9AB9827DD441E00025078 /* SceneDelegate.swift */; };
 		CEE9AB9B27DD441E00025078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9AB9A27DD441E00025078 /* ViewController.swift */; };
-		CEE9AB9E27DD441E00025078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE9AB9C27DD441E00025078 /* Main.storyboard */; };
 		CEE9ABA027DD442500025078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE9AB9F27DD442500025078 /* Assets.xcassets */; };
-		CEE9ABA327DD442500025078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE9ABA127DD442500025078 /* LaunchScreen.storyboard */; };
 		CEE9ABAE27DD442600025078 /* doggosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABAD27DD442600025078 /* doggosTests.swift */; };
 		CEE9ABB827DD442600025078 /* doggosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABB727DD442600025078 /* doggosUITests.swift */; };
 		CEE9ABBA27DD442600025078 /* doggosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABB927DD442600025078 /* doggosUITestsLaunchTests.swift */; };
+		CEE9ABC927DD762700025078 /* MomentsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABC827DD762700025078 /* MomentsCollectionViewController.swift */; };
+		CEE9ABCB27DD774200025078 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABCA27DD774200025078 /* Day.swift */; };
+		CEE9ABCD27DD779700025078 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABCC27DD779700025078 /* Section.swift */; };
+		CEE9ABCF27DD77F500025078 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABCE27DD77F500025078 /* DayCollectionViewCell.swift */; };
+		CEE9ABD127DD7ACA00025078 /* DayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABD027DD7ACA00025078 /* DayTableViewController.swift */; };
+		CEE9ABDB27DF052300025078 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABDA27DF052300025078 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +44,19 @@
 		CEE9AB9627DD441E00025078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE9AB9827DD441E00025078 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CEE9AB9A27DD441E00025078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEE9AB9D27DD441E00025078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEE9AB9F27DD442500025078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CEE9ABA227DD442500025078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE9ABA427DD442500025078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE9ABA927DD442600025078 /* doggosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doggosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE9ABAD27DD442600025078 /* doggosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doggosTests.swift; sourceTree = "<group>"; };
 		CEE9ABB327DD442600025078 /* doggosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doggosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE9ABB727DD442600025078 /* doggosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doggosUITests.swift; sourceTree = "<group>"; };
 		CEE9ABB927DD442600025078 /* doggosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doggosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEE9ABC827DD762700025078 /* MomentsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsCollectionViewController.swift; sourceTree = "<group>"; };
+		CEE9ABCA27DD774200025078 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		CEE9ABCC27DD779700025078 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		CEE9ABCE27DD77F500025078 /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEE9ABD027DD7ACA00025078 /* DayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTableViewController.swift; sourceTree = "<group>"; };
+		CEE9ABDA27DF052300025078 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +110,13 @@
 				CEE9AB9627DD441E00025078 /* AppDelegate.swift */,
 				CEE9AB9827DD441E00025078 /* SceneDelegate.swift */,
 				CEE9AB9A27DD441E00025078 /* ViewController.swift */,
-				CEE9AB9C27DD441E00025078 /* Main.storyboard */,
+				CEE9ABC827DD762700025078 /* MomentsCollectionViewController.swift */,
+				CEE9ABD027DD7ACA00025078 /* DayTableViewController.swift */,
+				CEE9ABCE27DD77F500025078 /* DayCollectionViewCell.swift */,
+				CEE9ABDA27DF052300025078 /* Configuration.swift */,
+				CEE9ABCA27DD774200025078 /* Day.swift */,
+				CEE9ABCC27DD779700025078 /* Section.swift */,
 				CEE9AB9F27DD442500025078 /* Assets.xcassets */,
-				CEE9ABA127DD442500025078 /* LaunchScreen.storyboard */,
 				CEE9ABA427DD442500025078 /* Info.plist */,
 			);
 			path = doggos;
@@ -231,9 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE9ABA327DD442500025078 /* LaunchScreen.storyboard in Resources */,
 				CEE9ABA027DD442500025078 /* Assets.xcassets in Resources */,
-				CEE9AB9E27DD441E00025078 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +268,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE9ABC927DD762700025078 /* MomentsCollectionViewController.swift in Sources */,
 				CEE9AB9B27DD441E00025078 /* ViewController.swift in Sources */,
 				CEE9AB9727DD441E00025078 /* AppDelegate.swift in Sources */,
+				CEE9ABDB27DF052300025078 /* Configuration.swift in Sources */,
+				CEE9ABCD27DD779700025078 /* Section.swift in Sources */,
+				CEE9ABCF27DD77F500025078 /* DayCollectionViewCell.swift in Sources */,
+				CEE9ABCB27DD774200025078 /* Day.swift in Sources */,
 				CEE9AB9927DD441E00025078 /* SceneDelegate.swift in Sources */,
+				CEE9ABD127DD7ACA00025078 /* DayTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +311,6 @@
 			targetProxy = CEE9ABB427DD442600025078 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CEE9AB9C27DD441E00025078 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEE9AB9D27DD441E00025078 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CEE9ABA127DD442500025078 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEE9ABA227DD442500025078 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CEE9ABBB27DD442600025078 /* Debug */ = {
@@ -442,8 +439,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = doggos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,8 +464,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = doggos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
