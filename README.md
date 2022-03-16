@@ -2,6 +2,8 @@
 premise primarly is just an app to encourage ppl to write 3 things that made them happy that day.
 the design clearly doesn't encourage this behavior very well, but backlogging that for now ;D
 
+images credits to google search for things that make me smile :D
+
 3/14 status:
 
 
