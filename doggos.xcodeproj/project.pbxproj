@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEB579AE27E54A9B00A60809 /* DayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB579AD27E54A9B00A60809 /* DayViewModel.swift */; };
 		CEE9AB9727DD441E00025078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9AB9627DD441E00025078 /* AppDelegate.swift */; };
 		CEE9AB9927DD441E00025078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9AB9827DD441E00025078 /* SceneDelegate.swift */; };
 		CEE9AB9B27DD441E00025078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9AB9A27DD441E00025078 /* ViewController.swift */; };
@@ -18,8 +19,8 @@
 		CEE9ABCB27DD774200025078 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABCA27DD774200025078 /* Day.swift */; };
 		CEE9ABCD27DD779700025078 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABCC27DD779700025078 /* Section.swift */; };
 		CEE9ABCF27DD77F500025078 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABCE27DD77F500025078 /* DayCollectionViewCell.swift */; };
-		CEE9ABD127DD7ACA00025078 /* DayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABD027DD7ACA00025078 /* DayTableViewController.swift */; };
 		CEE9ABDB27DF052300025078 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABDA27DF052300025078 /* Configuration.swift */; };
+		CEE9ABE927E17D8200025078 /* FuzziesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABE827E17D8200025078 /* FuzziesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEB579AD27E54A9B00A60809 /* DayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewModel.swift; sourceTree = "<group>"; };
 		CEE9AB9327DD441E00025078 /* doggos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doggos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE9AB9627DD441E00025078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE9AB9827DD441E00025078 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,8 +57,8 @@
 		CEE9ABCA27DD774200025078 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		CEE9ABCC27DD779700025078 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		CEE9ABCE27DD77F500025078 /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCollectionViewCell.swift; sourceTree = "<group>"; };
-		CEE9ABD027DD7ACA00025078 /* DayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTableViewController.swift; sourceTree = "<group>"; };
 		CEE9ABDA27DF052300025078 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		CEE9ABE827E17D8200025078 /* FuzziesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuzziesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEB579AF27E6933B00A60809 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CEB579AD27E54A9B00A60809 /* DayViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CEB579B027E6934600A60809 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9ABC827DD762700025078 /* MomentsCollectionViewController.swift */,
+				CEE9AB9A27DD441E00025078 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		CEE9AB8A27DD441E00025078 = {
 			isa = PBXGroup;
 			children = (
@@ -107,15 +126,13 @@
 		CEE9AB9527DD441E00025078 /* doggos */ = {
 			isa = PBXGroup;
 			children = (
+				CEB579B027E6934600A60809 /* ViewControllers */,
+				CEB579AF27E6933B00A60809 /* ViewModels */,
+				CEE9ABEB27E1925900025078 /* Views */,
+				CEE9ABEA27E1924D00025078 /* Models */,
 				CEE9AB9627DD441E00025078 /* AppDelegate.swift */,
 				CEE9AB9827DD441E00025078 /* SceneDelegate.swift */,
-				CEE9AB9A27DD441E00025078 /* ViewController.swift */,
-				CEE9ABC827DD762700025078 /* MomentsCollectionViewController.swift */,
-				CEE9ABD027DD7ACA00025078 /* DayTableViewController.swift */,
-				CEE9ABCE27DD77F500025078 /* DayCollectionViewCell.swift */,
 				CEE9ABDA27DF052300025078 /* Configuration.swift */,
-				CEE9ABCA27DD774200025078 /* Day.swift */,
-				CEE9ABCC27DD779700025078 /* Section.swift */,
 				CEE9AB9F27DD442500025078 /* Assets.xcassets */,
 				CEE9ABA427DD442500025078 /* Info.plist */,
 			);
@@ -137,6 +154,24 @@
 				CEE9ABB927DD442600025078 /* doggosUITestsLaunchTests.swift */,
 			);
 			path = doggosUITests;
+			sourceTree = "<group>";
+		};
+		CEE9ABEA27E1924D00025078 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9ABCC27DD779700025078 /* Section.swift */,
+				CEE9ABCA27DD774200025078 /* Day.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEE9ABEB27E1925900025078 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9ABCE27DD77F500025078 /* DayCollectionViewCell.swift */,
+				CEE9ABE827E17D8200025078 /* FuzziesView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,12 +306,13 @@
 				CEE9ABC927DD762700025078 /* MomentsCollectionViewController.swift in Sources */,
 				CEE9AB9B27DD441E00025078 /* ViewController.swift in Sources */,
 				CEE9AB9727DD441E00025078 /* AppDelegate.swift in Sources */,
+				CEE9ABE927E17D8200025078 /* FuzziesView.swift in Sources */,
 				CEE9ABDB27DF052300025078 /* Configuration.swift in Sources */,
 				CEE9ABCD27DD779700025078 /* Section.swift in Sources */,
 				CEE9ABCF27DD77F500025078 /* DayCollectionViewCell.swift in Sources */,
+				CEB579AE27E54A9B00A60809 /* DayViewModel.swift in Sources */,
 				CEE9ABCB27DD774200025078 /* Day.swift in Sources */,
 				CEE9AB9927DD441E00025078 /* SceneDelegate.swift in Sources */,
-				CEE9ABD127DD7ACA00025078 /* DayTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,4 +12,5 @@ class Configuration {
 
   let navBarColor = UIColor(red: 153/255, green: 153/255, blue: 153/255, alpha: 1)
   
+  let cornerRadius = 16.0
 }

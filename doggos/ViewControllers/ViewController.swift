@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     let appearance = UINavigationBarAppearance()
     appearance.configureWithOpaqueBackground()
     appearance.backgroundColor = Configuration().navBarColor
-    appearance.titleTextAttributes = [.foregroundColor: UIColor.white] // With a red background, make the title more readable.
+    appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
 
     self.navigationController?.navigationBar.standardAppearance = appearance;
     self.navigationController?.navigationBar.scrollEdgeAppearance = self.navigationController?.navigationBar.standardAppearance

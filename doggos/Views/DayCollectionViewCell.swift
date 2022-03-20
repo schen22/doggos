@@ -13,7 +13,7 @@ class DayCollectionViewCell: UICollectionViewCell {
   
   var day: Day? {
     didSet {
-      thumbnailView.image = day?.thumbnail
+      thumbnailView.image = UIImage(named: day?.thumbnail_name ?? "flareon")
       titleLabel.text = day?.title
     }
   }
@@ -21,7 +21,7 @@ class DayCollectionViewCell: UICollectionViewCell {
   override init(frame: CGRect) {
     super.init(frame: frame)
 
-    self.layer.cornerRadius = 16
+    self.layer.cornerRadius = Configuration().cornerRadius
     self.layer.masksToBounds = true
 
     self.thumbnailView = UIImageView(frame: CGRect(x: 0, y: 0, width: 164, height: 164))
