@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+// TODO: Remove file
 // 1
 class Section: Hashable {
   var id = UUID()
@@ -32,7 +32,7 @@ class Section: Hashable {
     return [
       Section(
         title: "Testing",
-        days: Day.dayList()
+        days: DayViewModel().allDays
       ),
     ]
   }

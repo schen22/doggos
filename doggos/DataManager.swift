@@ -48,8 +48,12 @@ class LocalDataManager {
     ]
   }
 
-  func retreiveAllFuzzies() -> [[String]] {
+  func retrieveAllFuzzies() -> [[String]] {
     return Array(allData.values)
+  }
+  
+  func retrieveAllDays() -> [Day] {
+    return Array(allData.keys)
   }
 
   func addFuzzyForDay(fuzzy: String, day: Day) throws {

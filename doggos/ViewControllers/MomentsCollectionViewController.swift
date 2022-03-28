@@ -16,6 +16,8 @@ class MomentsCollectionViewController: UICollectionViewController {
     right: 16.0)
   private let itemsPerRow: CGFloat = 2
   
+  private let dayViewModel: DayViewModel = DayViewModel()
+
   private let dayCellReuseIdentifier = "DayCollectionViewCell"
   
   override func viewDidLoad() {
@@ -39,7 +41,7 @@ extension MomentsCollectionViewController {
     _ collectionView: UICollectionView,
     numberOfItemsInSection section: Int
   ) -> Int {
-    return Day.dayList().count
+    return dayViewModel.allDays.count
   }
   
   override func collectionView(
@@ -50,7 +52,7 @@ extension MomentsCollectionViewController {
       withReuseIdentifier: dayCellReuseIdentifier,
       for: indexPath) as! DayCollectionViewCell
     // Configure the cell
-    cell.day = Day.dayList()[indexPath.row]
+    cell.day = dayViewModel.allDays[indexPath.row]
     cell.backgroundColor = .clear
     return cell
   }

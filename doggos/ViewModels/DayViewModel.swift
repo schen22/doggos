@@ -8,9 +8,24 @@
 import Foundation
 
 class DayViewModel {
-//  func retrieveDay(_ success: Callback) -> Day {
-//    return Day(title: "Day 1", thumbnail: UIImage(named: "flareon"))
-//  }
+  let dataManager: LocalDataManager = LocalDataManager()
+  lazy var allDays: [Day] = {
+    return self.retrieveDays()
+  }()
+  
+  func retrieveDays() -> [Day] {
+    return dataManager.retrieveAllDays()
+  }
+  
+  func addFuzzyForDay(fuzzy: String, day: Day) {
+    do {
+      try dataManager.addFuzzyForDay(fuzzy: fuzzy, day: day)
+    } catch LocalDataManagerError.notFound {
+      print("Unable to find day: \(day)")
+    } catch {
+      print("Unexpected error: \(error)")
+    }
+  }
 
   let contentJson = """
     [
