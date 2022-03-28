@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE419B4327F12B96001B7998 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE419B4227F12B96001B7998 /* DataManager.swift */; };
 		CEB579AE27E54A9B00A60809 /* DayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB579AD27E54A9B00A60809 /* DayViewModel.swift */; };
 		CEE9AB9727DD441E00025078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9AB9627DD441E00025078 /* AppDelegate.swift */; };
 		CEE9AB9927DD441E00025078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9AB9827DD441E00025078 /* SceneDelegate.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE419B4227F12B96001B7998 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		CEB579AD27E54A9B00A60809 /* DayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewModel.swift; sourceTree = "<group>"; };
 		CEE9AB9327DD441E00025078 /* doggos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doggos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE9AB9627DD441E00025078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				CEE9ABDA27DF052300025078 /* Configuration.swift */,
 				CEE9AB9F27DD442500025078 /* Assets.xcassets */,
 				CEE9ABA427DD442500025078 /* Info.plist */,
+				CE419B4227F12B96001B7998 /* DataManager.swift */,
 			);
 			path = doggos;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				CEE9ABCD27DD779700025078 /* Section.swift in Sources */,
 				CEE9ABCF27DD77F500025078 /* DayCollectionViewCell.swift in Sources */,
 				CEB579AE27E54A9B00A60809 /* DayViewModel.swift in Sources */,
+				CE419B4327F12B96001B7998 /* DataManager.swift in Sources */,
 				CEE9ABCB27DD774200025078 /* Day.swift in Sources */,
 				CEE9AB9927DD441E00025078 /* SceneDelegate.swift in Sources */,
 			);
