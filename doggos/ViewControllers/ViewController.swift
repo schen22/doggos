@@ -9,30 +9,29 @@ import UIKit
 
 // HomeViewController
 class ViewController: UIViewController {
+  let floatingComposerButton: ComposerButtonView = ComposerButtonView()
   
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
-//    modalPresentationCapturesStatusBarAppearance = true
 
     self.setUpNavBar()
     let momentsCollectionViewController = MomentsCollectionViewController(collectionViewLayout: setUpCollectionLayout())
-    // TODO: Somehow window is nil here, so instead of
-    // returning 20 here, 0 is always returned. So
-    // we instead rely on having collectionView take
-    // up whole view
-//    let statusBarFrameHeight = view.window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 20
-//    let navBarHeight = self.navigationController?.navigationBar.frame.size.height ?? 0
-//    momentsCollectionViewController.collectionView.frame = CGRect(
-//      x: 0,
-//      y: statusBarFrameHeight + navBarHeight,
-//      width: self.view.frame.width,
-//      height: self.view.frame.size.height - statusBarFrameHeight - navBarHeight)
     momentsCollectionViewController.collectionView.frame = self.view.frame
     // TODO: Figure out why you need to add a child vc prior to adding subview and moving to parent
     self.addChild(momentsCollectionViewController)
     self.view.addSubview(momentsCollectionViewController.collectionView)
     self.didMove(toParent: momentsCollectionViewController)
+    
+    self.view.addSubview(floatingComposerButton)
+    let buttonDiameter: CGFloat = 62
+    floatingComposerButton.layer.cornerRadius = buttonDiameter / 2
+    floatingComposerButton.layer.masksToBounds = true
+    floatingComposerButton.translatesAutoresizingMaskIntoConstraints = false
+    floatingComposerButton.widthAnchor.constraint(equalToConstant: buttonDiameter).isActive = true
+    floatingComposerButton.heightAnchor.constraint(equalToConstant: buttonDiameter).isActive = true
+    floatingComposerButton.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -20).isActive = true
+    floatingComposerButton.bottomAnchor.constraint(equalTo: self.view.layoutMarginsGuide.bottomAnchor, constant: -20).isActive = true
   }
   
   // HomeViewController

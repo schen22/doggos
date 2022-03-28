@@ -15,9 +15,7 @@ class MomentsCollectionViewController: UICollectionViewController {
     bottom: 50.0,
     right: 16.0)
   private let itemsPerRow: CGFloat = 2
-  
   private let dayViewModel: DayViewModel = DayViewModel()
-
   private let dayCellReuseIdentifier = "DayCollectionViewCell"
   
   override func viewDidLoad() {
