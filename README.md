@@ -8,3 +8,11 @@ images credits to google search for things that make me smile :D
 
 
 <img width="375" alt="image" src="https://user-images.githubusercontent.com/6363626/158496704-c0254ca1-d4d3-4bbc-8792-02a92858a245.png">
+
+3/27 status:
+- created fake data manager
+- created viewModel to call from and listen to data updates from VC with
+- created composer button view
+- added composer button view as floating button to main VC
+
+![updated view]("21_03_27_update.mov")
