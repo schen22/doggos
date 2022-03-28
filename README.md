@@ -15,4 +15,4 @@ images credits to google search for things that make me smile :D
 - created composer button view
 - added composer button view as floating button to main VC
 
-![updated view]("updates/21_03_27_update.gif")
+![updated view](updates/21_03_27_update.gif)
