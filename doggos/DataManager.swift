@@ -11,7 +11,6 @@ enum LocalDataManagerError: Error {
   case notFound
 }
 
-
 class LocalDataManager {
   var allData = [
     Day(
