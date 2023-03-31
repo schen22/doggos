@@ -17,6 +17,10 @@ class DayViewModel {
     return dataManager.retrieveAllDays()
   }
   
+  func getDayDetails(day: Day) -> [String] {
+    return dataManager.retrieveFuzziesForDay(day)
+  }
+  
   func addFuzzyForDay(fuzzy: String, day: Day) {
     do {
       try dataManager.addFuzzyForDay(fuzzy: fuzzy, day: day)

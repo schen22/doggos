@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE419B4327F12B96001B7998 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE419B4227F12B96001B7998 /* DataManager.swift */; };
 		CE419B4527F1406D001B7998 /* ComposerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE419B4427F1406D001B7998 /* ComposerButtonView.swift */; };
+		CEAFC84329D695380003643D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC84229D695380003643D /* DetailsViewController.swift */; };
 		CEB579AE27E54A9B00A60809 /* DayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB579AD27E54A9B00A60809 /* DayViewModel.swift */; };
 		CEE9AB9727DD441E00025078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9AB9627DD441E00025078 /* AppDelegate.swift */; };
 		CEE9AB9927DD441E00025078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9AB9827DD441E00025078 /* SceneDelegate.swift */; };
@@ -22,7 +23,7 @@
 		CEE9ABCD27DD779700025078 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABCC27DD779700025078 /* Section.swift */; };
 		CEE9ABCF27DD77F500025078 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABCE27DD77F500025078 /* DayCollectionViewCell.swift */; };
 		CEE9ABDB27DF052300025078 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABDA27DF052300025078 /* Configuration.swift */; };
-		CEE9ABE927E17D8200025078 /* FuzziesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABE827E17D8200025078 /* FuzziesView.swift */; };
+		CEE9ABE927E17D8200025078 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9ABE827E17D8200025078 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		CE419B4227F12B96001B7998 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		CE419B4427F1406D001B7998 /* ComposerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerButtonView.swift; sourceTree = "<group>"; };
+		CEAFC84229D695380003643D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		CEB579AD27E54A9B00A60809 /* DayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewModel.swift; sourceTree = "<group>"; };
 		CEE9AB9327DD441E00025078 /* doggos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doggos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE9AB9627DD441E00025078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +64,7 @@
 		CEE9ABCC27DD779700025078 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		CEE9ABCE27DD77F500025078 /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCollectionViewCell.swift; sourceTree = "<group>"; };
 		CEE9ABDA27DF052300025078 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		CEE9ABE827E17D8200025078 /* FuzziesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuzziesView.swift; sourceTree = "<group>"; };
+		CEE9ABE827E17D8200025078 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				CEE9ABC827DD762700025078 /* MomentsCollectionViewController.swift */,
+				CEAFC84229D695380003643D /* DetailsViewController.swift */,
 				CEE9AB9A27DD441E00025078 /* ViewController.swift */,
 			);
 			path = ViewControllers;
@@ -174,7 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				CEE9ABCE27DD77F500025078 /* DayCollectionViewCell.swift */,
-				CEE9ABE827E17D8200025078 /* FuzziesView.swift */,
+				CEE9ABE827E17D8200025078 /* DetailsView.swift */,
 				CE419B4427F1406D001B7998 /* ComposerButtonView.swift */,
 			);
 			path = Views;
@@ -312,7 +315,7 @@
 				CEE9ABC927DD762700025078 /* MomentsCollectionViewController.swift in Sources */,
 				CEE9AB9B27DD441E00025078 /* ViewController.swift in Sources */,
 				CEE9AB9727DD441E00025078 /* AppDelegate.swift in Sources */,
-				CEE9ABE927E17D8200025078 /* FuzziesView.swift in Sources */,
+				CEE9ABE927E17D8200025078 /* DetailsView.swift in Sources */,
 				CEE9ABDB27DF052300025078 /* Configuration.swift in Sources */,
 				CEE9ABCD27DD779700025078 /* Section.swift in Sources */,
 				CEE9ABCF27DD77F500025078 /* DayCollectionViewCell.swift in Sources */,
@@ -320,6 +323,7 @@
 				CEB579AE27E54A9B00A60809 /* DayViewModel.swift in Sources */,
 				CE419B4327F12B96001B7998 /* DataManager.swift in Sources */,
 				CEE9ABCB27DD774200025078 /* Day.swift in Sources */,
+				CEAFC84329D695380003643D /* DetailsViewController.swift in Sources */,
 				CEE9AB9927DD441E00025078 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

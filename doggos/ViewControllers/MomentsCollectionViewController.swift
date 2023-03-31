@@ -96,9 +96,14 @@ extension MomentsCollectionViewController : UICollectionViewDelegateFlowLayout {
   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     print("selected item: \(indexPath.row)")
     guard let cell = collectionView.cellForItem(at: indexPath) as? DayCollectionViewCell else { return }
-    print(cell.day?.id ?? "0")
+    
+    guard let day = cell.day else { return }
+    
+    print(day.id ?? "0")
+    print(day.title)
     // TODO:
     // on tap, open day to view fuzzies.
+    
   }
 
 }

@@ -1,5 +1,5 @@
 //
-//  FuzziesView.swift
+//  DetailsView.swift
 //  doggos
 //
 //  Created by Sarah Chen on 3/15/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FuzziesView: UIView {
+class DetailsView: UIView {
   var fuzzy: UITextField!
   var saveButton: UIButton!
   
